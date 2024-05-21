@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'clickhouse_project.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "cursosapp",
+        "NAME": "h1_clickhouse",
         "USER": "diego",
         "PASSWORD": "1234",
         "HOST": "localhost",
