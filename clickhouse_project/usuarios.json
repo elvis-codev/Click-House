@@ -1,0 +1,72 @@
+[
+    {
+        "model": "static_pages.usuario",
+        "pk": "1",
+        "fields": {
+            "id": 1,
+            "nombres": "Juan",
+            "apellidos": "Perez",
+            "rut": "123456789",
+            "direccion": "Calle 123",
+            "telefono": "+123456789",
+            "correo": "juan@example.com",
+            "tipo_usuario": "arrendatario"
+        }
+    },
+    {
+        "model": "static_pages.usuario",
+        "pk": "2",
+        "fields": {
+            "id": 2,
+            "nombres": "María",
+            "apellidos": "Gutiérrez",
+            "rut": "987654321",
+            "direccion": "Avenida Principal",
+            "telefono": "+987654321",
+            "correo": "maria@example.com",
+            "tipo_usuario": "arrendador"
+        }
+    },
+    {
+        "model": "static_pages.usuario",
+        "pk": "3",
+        "fields": {
+            "id": 3,
+            "nombres": "Carlos",
+            "apellidos": "Rodríguez",
+            "rut": "456789123",
+            "direccion": "Calle Secundaria",
+            "telefono": "+456789123",
+            "correo": "carlos@example.com",
+            "tipo_usuario": "arrendatario"
+        }
+    },
+    {
+        "model": "static_pages.usuario",
+        "pk": "4",
+        "fields": {
+            "id": 4,
+            "nombres": "Ana",
+            "apellidos": "López",
+            "rut": "789123456",
+            "direccion": "Plaza Mayor",
+            "telefono": "+789123456",
+            "correo": "ana@example.com",
+            "tipo_usuario": "arrendador"
+        }
+    },
+    {
+        "model": "static_pages.usuario",
+        "pk": "5",
+        "fields": {
+            "id": 5,
+            "nombres": "Pedro",
+            "apellidos": "Martínez",
+            "rut": "321654987",
+            "direccion": "Calle Principal",
+            "telefono": "+321654987",
+            "correo": "pedro@example.com",
+            "tipo_usuario": "arrendatario"
+        }
+    }
+]

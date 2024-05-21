@@ -1,0 +1,92 @@
+[
+    {
+        "model": "static_pages.propiedad",
+        "pk": 1,
+        "fields": {
+            "nombre": "Casa en el Bosque",
+            "descripcion": "Hermosa casa rodeada de naturaleza.",
+            "m2_construidos": 200,
+            "m2_totales": 500,
+            "estacionamientos": 2,
+            "habitaciones": 4,
+            "banos": 3,
+            "direccion": "Calle del Bosque 123",
+            "comuna": "Santiago",
+            "tipo_inmueble": "Casa",
+            "precio_arriendo": "1500.00",
+            "propietario": 1
+        }
+    },
+    {
+        "model": "static_pages.propiedad",
+        "pk": 2,
+        "fields": {
+            "nombre": "Departamento Centro",
+            "descripcion": "Moderno departamento en el corazón de la ciudad.",
+            "m2_construidos": 120,
+            "m2_totales": 150,
+            "estacionamientos": 1,
+            "habitaciones": 2,
+            "banos": 1,
+            "direccion": "Avenida Principal 456",
+            "comuna": "Santiago",
+            "tipo_inmueble": "Departamento",
+            "precio_arriendo": "1200.00",
+            "propietario": 2
+        }
+    },
+    {
+        "model": "static_pages.propiedad",
+        "pk": 3,
+        "fields": {
+            "nombre": "Casa de Playa",
+            "descripcion": "Acogedora casa frente al mar.",
+            "m2_construidos": 180,
+            "m2_totales": 300,
+            "estacionamientos": 2,
+            "habitaciones": 3,
+            "banos": 2,
+            "direccion": "Avenida del Mar 789",
+            "comuna": "Viña del Mar",
+            "tipo_inmueble": "Casa",
+            "precio_arriendo": "2000.00",
+            "propietario": 3
+        }
+    },
+    {
+        "model": "static_pages.propiedad",
+        "pk": 4,
+        "fields": {
+            "nombre": "Parcela Campestre",
+            "descripcion": "Amplia parcela con vistas panorámicas.",
+            "m2_construidos": 0,
+            "m2_totales": 5000,
+            "estacionamientos": 10,
+            "habitaciones": 0,
+            "banos": 0,
+            "direccion": "Camino a la Montaña s/n",
+            "comuna": "Valdivia",
+            "tipo_inmueble": "Parcela",
+            "precio_arriendo": "2500.00",
+            "propietario": 4
+        }
+    },
+    {
+        "model": "static_pages.propiedad",
+        "pk": 5,
+        "fields": {
+            "nombre": "Loft Urbano",
+            "descripcion": "Espacioso loft en el centro de la ciudad.",
+            "m2_construidos": 150,
+            "m2_totales": 180,
+            "estacionamientos": 1,
+            "habitaciones": 1,
+            "banos": 1,
+            "direccion": "Calle Principal 789",
+            "comuna": "Concepción",
+            "tipo_inmueble": "Departamento",
+            "precio_arriendo": "1100.00",
+            "propietario": 5
+        }
+    }
+]
