@@ -45,21 +45,3 @@ class Propiedad(models.Model):
         verbose_name = "Propiedad"
         verbose_name_plural = "Propiedades"
         ordering = ["nombre"]
-
-class Arrendatario(models.Model):
-    usuario = models.OneToOneField(Usuario, on_delete=models.CASCADE)
-    propiedades_interes = models.ManyToManyField(Propiedad)
-
-    class Meta:
-        verbose_name = "Arrendatario"
-        verbose_name_plural = "Arrendatarios"
-        ordering = ["usuario"]
-
-class Arrendador(models.Model):
-    usuario = models.OneToOneField(Usuario, on_delete=models.CASCADE)
-    propiedades_publicadas = models.ManyToManyField(Propiedad)
-
-    class Meta:
-        verbose_name = "Arrendador"
-        verbose_name_plural = "Arrendadores"
-        ordering = ["usuario"]

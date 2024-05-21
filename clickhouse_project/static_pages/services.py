@@ -1,4 +1,4 @@
-from .models import Usuario, Propiedad, Arrendatario, Arrendador
+from .models import Usuario, Propiedad
 
 def crear_usuario(nombres, apellidos, rut, direccion, telefono, correo, tipo_usuario):
     return Usuario.objects.create(nombres=nombres, apellidos=apellidos, rut=rut, direccion=direccion, telefono=telefono, correo=correo, tipo_usuario=tipo_usuario)
