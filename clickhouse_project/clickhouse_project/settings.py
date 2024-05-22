@@ -52,6 +52,11 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'clickhouse_project.urls'
 
+
+LOGIN_URL= 'login'
+LOGIN_REDIRECT_URL= 'indice'
+LOGOUT_REDIRECT_URL= 'login'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
